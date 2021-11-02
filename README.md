@@ -11,10 +11,13 @@ A custom file parser for the .pro format. It can parse the .pro file and execute
 sample_command.pro
 ```json
 {
-    "type": example_type,
-    "data": {
-      
-	}
+  "type": "DM",
+  "data": {
+    "recipient": "FedoraMan",
+    "amount": 10,
+    "content": "Sup. Am pro",
+    "vary": true
+  }
 }
 ```
 ### Property information:
